@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+</head>
+<body>
+    <a href="../index.html">HomePage</a>
+    <!-- =======================signup page ================================== -->
+    <div class="container">
+        <h1>Sign Up Here</h1>
+        <form>
+            <!-- <label for="name">Name</label>
+            <input type="text" id="username"  required> -->
+
+            <label for="useremail" >Email</label>
+            <input type="email" id="email"  required>
+
+            <label >Password</label>
+            <input type="password" id="password"  required>
+
+            <button  onclick="signup()" >Sign Up</button>
+        </form>
+    </div>
+
+
+
+    <script src="../app.js"></script>
+</body>
+</html>
